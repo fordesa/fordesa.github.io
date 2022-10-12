@@ -47,17 +47,3 @@ function changeTwitterDark()
     document.getElementById("twitter").style.filter = "invert(65%)";
     document.getElementById("twitter-text").style.color = "grey";
 }
-
-window.onload = function() {
-    Particles.init({
-      selector: '.background',
-      color: "#FF0000",
-      connectParticles: true, 
-      maxParticles: 100, 
-      sizeVariations: 3,
-      speed: .1
-    });
-  };
-window.onresize = function() {
-    Particles.stop
-};

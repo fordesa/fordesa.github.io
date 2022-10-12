@@ -49,15 +49,6 @@ h1 {
   position: inherit;
   z-index: inherit;
 }
-.background { 
-  position: absolute;  
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  background-color: aliceblue;
-  }
-
 
 /* CSS for the sidebar, and all the logos */
 .menu {
