@@ -5,38 +5,59 @@
 
 /* CSS for the main body of the HTML, and the face */
 body {
-  background-image: url("orange.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 0px;
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
+  font-family: "Crimson-Pro", sans-serif;
+  padding: 15px;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 1;
 }
 .content {
   width: 95%;
   height: 100%;
   margin-left: 38px;
+  position: inherit;
+  z-index: inherit;
 }
 h1 {
   text-align: center;
-  font-size: 48px;
+  position: inherit;
+  z-index: inherit;
+  font-size: 72px;
+  line-height: .5;
+  font-weight: 600;
 }
 #body {
   font-size: 25px;
   text-align: center;
+  line-height: 1.2;
+  font-weight: 500;
+  position: inherit;
+  z-index: inherit;
 }
 #face {
   width: 60%;
-  height: 100%;
+  height: 60%;
   border-radius: 25%;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding: 80px;
-  max-width: 700px;
-  max-height: 900px;
+  padding: 25px;
+  position: inherit;
+  z-index: inherit;
 }
+.background { 
+  position: absolute;  
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: aliceblue;
+  }
+
 
 /* CSS for the sidebar, and all the logos */
 .menu {
