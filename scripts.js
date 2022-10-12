@@ -55,8 +55,7 @@ window.onload = function() {
       connectParticles: true, 
       maxParticles: 100, 
       sizeVariations: 3,
-      speed: .1,
-      interactivity.events.onhover.enable = true
+      speed: .1
     });
   };
 window.onresize = function() {
